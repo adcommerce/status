@@ -1,3 +1,37 @@
 {
- "days": []
+ "days": [
+  {
+   "date": "2026-11-01",
+   "parts": {
+    "signin": {
+     "w": "ok",
+     "up": 100
+    },
+    "admin": {
+     "w": "ok",
+     "up": 100
+    },
+    "stores": {
+     "w": "ok",
+     "up": 100
+    },
+    "checkout": {
+     "w": "ok",
+     "up": 100
+    },
+    "agent": {
+     "w": "ok",
+     "up": 100
+    },
+    "media": {
+     "w": "ok",
+     "up": 100
+    },
+    "email": {
+     "w": "ok",
+     "up": 100
+    }
+   }
+  }
+ ]
 }
