@@ -1,0 +1,89 @@
+{
+ "parts": {
+  "signin": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  },
+  "admin": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  },
+  "stores": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  },
+  "checkout": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  },
+  "agent": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  },
+  "media": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  },
+  "email": {
+   "state": "ok",
+   "since": "2026-11-01T11:19:02.928Z"
+  }
+ },
+ "today": {
+  "date": "2026-11-01",
+  "worst": {}
+ },
+ "providers": {
+  "cloudflare": {
+   "indicator": "major",
+   "description": "Partial System Outage",
+   "incidents": []
+  }
+ },
+ "updated": "2026-11-01T11:19:02.928Z",
+ "open": [],
+ "parts_order": [
+  {
+   "id": "signin",
+   "mn": "Нэвтрэх",
+   "en": "Sign-in",
+   "provider": null
+  },
+  {
+   "id": "admin",
+   "mn": "Админ",
+   "en": "Admin",
+   "provider": null
+  },
+  {
+   "id": "stores",
+   "mn": "Онлайн дэлгүүрүүд",
+   "en": "Online stores",
+   "provider": null
+  },
+  {
+   "id": "checkout",
+   "mn": "Төлбөр тооцоо (checkout)",
+   "en": "Checkout",
+   "provider": null
+  },
+  {
+   "id": "agent",
+   "mn": "AD агент",
+   "en": "AD agent",
+   "provider": null
+  },
+  {
+   "id": "media",
+   "mn": "Зураг, файл",
+   "en": "Media",
+   "provider": null
+  },
+  {
+   "id": "email",
+   "mn": "Имэйл",
+   "en": "Email",
+   "provider": "Resend"
+  }
+ ]
+}
