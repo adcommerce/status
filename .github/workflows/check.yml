@@ -1,6 +1,6 @@
 name: check
 # Every 5 minutes, triggered by cron-job.org (workflow_dispatch through the GitHub API).
-# GitHub's own schedule is only the fallback: it is often late and sometimes skipped.
+# GitHub's own schedule is only the fallback (often late, sometimes skipped); pushing this file re-registers it.
 on:
   workflow_dispatch:
     inputs:
