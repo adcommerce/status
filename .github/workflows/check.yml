@@ -1,0 +1,71 @@
+name: check
+# Every 5 minutes, triggered by cron-job.org (workflow_dispatch through the GitHub API).
+# GitHub's own schedule is only the fallback: it is often late and sometimes skipped.
+on:
+  workflow_dispatch:
+    inputs:
+      simulate:
+        description: "TEST ONLY: part ids to treat as failing, e.g. admin"
+        required: false
+        default: ""
+      test_label:
+        description: "TEST ONLY: a label for Slack; the run uses private copies and writes nothing public"
+        required: false
+        default: ""
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Restore working state
+        uses: actions/cache/restore@v4
+        with:
+          path: .work
+          key: work-${{ github.run_id }}
+          restore-keys: work-
+      - name: Check
+        id: check
+        run: node scripts/check.mjs
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+          STORE_SITES: ${{ secrets.STORE_SITES }}
+          SIMULATE_FAIL: ${{ inputs.simulate }}
+          TEST_LABEL: ${{ inputs.test_label }}
+      - name: Save working state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .work
+          key: work-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Commit changes
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "adcommerce-status"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -q -m "status: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+      - name: Prune old working-state caches
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh cache list --key work- --limit 100 --json id,createdAt --jq 'sort_by(.createdAt) | reverse | .[5:] | .[].id' \
+            | xargs -r -n1 gh cache delete || true

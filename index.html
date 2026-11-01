@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADCommerce — Системийн төлөв · Status</title>
+<meta name="description" content="ADCommerce платформын төлөв: нэвтрэх, админ, онлайн дэлгүүр, checkout, AD агент. Status of the ADCommerce platform.">
+<meta name="theme-color" content="#0a0a0b">
+<link rel="icon" href="assets/mark.png">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="alternate" type="application/json" href="data/status.json">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+<header class="top">
+  <a class="brand" href="https://www.adcommerce.mn" aria-label="ADCommerce"><img src="assets/logo-white.png" alt="ADCommerce" width="165" height="28"></a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="mn">MN</button>
+    <button type="button" data-lang="en">EN</button>
+  </div>
+</header>
+
+<main>
+  <p class="eyebrow"><span class="dot"></span><span data-t="eyebrow">Системийн төлөв</span></p>
+  <h1 id="overall" class="overall">…</h1>
+  <p class="meta" id="checked"></p>
+
+  <section id="open" class="incidents open" hidden></section>
+
+  <section class="card">
+    <div class="card-head">
+      <h2 data-t="parts">Хэсгүүд</h2>
+      <span class="legend"><i class="sw ok"></i><span data-t="s_ok">Хэвийн</span><i class="sw degraded"></i><span data-t="s_degraded">Доголдолтой</span><i class="sw down"></i><span data-t="s_down">Ажиллахгүй</span></span>
+    </div>
+    <ul id="parts" class="parts"></ul>
+    <div class="axis"><span data-t="days90">90 хоногийн өмнө</span><span data-t="today">Өнөөдөр</span></div>
+  </section>
+
+  <section id="provider" class="provider" hidden></section>
+
+  <section class="card">
+    <h2 data-t="past">Сүүлийн тохиолдлууд</h2>
+    <div id="past" class="incidents past"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© ADCommerce</span>
+  <a href="https://www.adcommerce.mn">adcommerce.mn</a>
+  <a href="https://www.cloudflarestatus.com" rel="noopener">Cloudflare status</a>
+</footer>
+<noscript><p class="meta" style="text-align:center">JavaScript is needed to show the status. <a href="data/status.json">status.json</a></p></noscript>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
