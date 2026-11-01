@@ -182,6 +182,7 @@ async function slack(text, thread_ts, broadcast = false) {
     body: JSON.stringify({ channel: SLACK_CHANNEL, text: msg, thread_ts, reply_broadcast: !!(thread_ts && broadcast), unfurl_links: false, unfurl_media: false }),
   }).then((x) => x.json()).catch(() => ({ ok: false, error: "network" }));
   if (!r.ok) { console.log("slack error:", r.error); return null; }
+  console.log("slack: posted", thread_ts ? "in thread" : "to channel");
   return r.ts;
 }
 const icon = { ok: "✅", degraded: "🟠", down: "🔴" };
