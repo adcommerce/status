@@ -37,10 +37,16 @@
   "cloudflare": {
    "indicator": "major",
    "description": "Partial System Outage",
-   "incidents": []
+   "incidents": [
+    {
+     "name": "Worker Deployments Delayed",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/7he1pmetw77p"
+    }
+   ]
   }
  },
- "updated": "2026-11-02T16:00:49.271Z",
+ "updated": "2026-11-02T16:45:28.899Z",
  "open": [],
  "parts_order": [
   {
