@@ -37,16 +37,10 @@
   "cloudflare": {
    "indicator": "major",
    "description": "Partial System Outage",
-   "incidents": [
-    {
-     "name": "Cloudflare Workers and Pages build errors ",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o"
-    }
-   ]
+   "incidents": []
   }
  },
- "updated": "2026-11-03T16:45:31.879Z",
+ "updated": "2026-11-03T19:40:40.559Z",
  "open": [],
  "parts_order": [
   {
