@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Increased Durable Object Errors in the Dallas, TX US region",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/7gixemnw9oei"
+    },
+    {
      "name": "Cloudflare Workers and Pages build errors ",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-03T14:50:45.493Z",
+ "updated": "2026-11-03T15:40:31.765Z",
  "open": [],
  "parts_order": [
   {
