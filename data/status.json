@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Network Performance Issues in APJC",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/j25w3rpv45gs"
+    },
+    {
      "name": "Cloudflare Container Issues",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/n5mvqjs26jg9"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-03T04:15:32.839Z",
+ "updated": "2026-11-03T04:45:28.687Z",
  "open": [],
  "parts_order": [
   {
