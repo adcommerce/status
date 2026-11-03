@@ -5,8 +5,8 @@
    "since": "2026-11-01T11:19:02.928Z"
   },
   "admin": {
-   "state": "ok",
-   "since": "2026-11-01T11:19:02.928Z"
+   "state": "degraded",
+   "since": "2026-11-03T20:05:34.707Z"
   },
   "stores": {
    "state": "ok",
@@ -31,7 +31,9 @@
  },
  "today": {
   "date": "2026-11-04",
-  "worst": {}
+  "worst": {
+   "admin": "degraded"
+  }
  },
  "providers": {
   "cloudflare": {
@@ -40,8 +42,10 @@
    "incidents": []
   }
  },
- "updated": "2026-11-03T19:40:40.559Z",
- "open": [],
+ "updated": "2026-11-03T20:05:34.707Z",
+ "open": [
+  "2026-11-04-admin"
+ ],
  "parts_order": [
   {
    "id": "signin",
