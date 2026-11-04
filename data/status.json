@@ -30,10 +30,8 @@
   }
  },
  "today": {
-  "date": "2026-11-04",
-  "worst": {
-   "admin": "degraded"
-  }
+  "date": "2026-11-05",
+  "worst": {}
  },
  "providers": {
   "cloudflare": {
@@ -42,7 +40,7 @@
    "incidents": []
   }
  },
- "updated": "2026-11-04T15:35:22.434Z",
+ "updated": "2026-11-04T16:00:47.963Z",
  "open": [],
  "parts_order": [
   {
