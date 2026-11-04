@@ -39,10 +39,16 @@
   "cloudflare": {
    "indicator": "major",
    "description": "Partial System Outage",
-   "incidents": []
+   "incidents": [
+    {
+     "name": "Network latency issues in NRT",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/nbnize4e990z"
+    }
+   ]
   }
  },
- "updated": "2026-11-03T20:10:39.617Z",
+ "updated": "2026-11-04T13:40:31.827Z",
  "open": [],
  "parts_order": [
   {
