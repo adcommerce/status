@@ -39,11 +39,6 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Network disruption across multiple colocations in India",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/1i6fnludjh1m"
-    },
-    {
      "name": "Increased Errors for Durable Objects in Western Europe",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-05T16:00:54.083Z",
+ "updated": "2026-11-05T16:20:32.653Z",
  "open": [],
  "parts_order": [
   {
