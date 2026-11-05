@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Elevated errors for R2 in Asia Pacific",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/1i6fnludjh1m"
+    },
+    {
      "name": "Increased Errors for Durable Objects in Western Europe",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-05T13:25:22.569Z",
+ "updated": "2026-11-05T15:05:26.027Z",
  "open": [],
  "parts_order": [
   {
