@@ -39,11 +39,6 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Workers Builds Issues",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/yaa0witbl2me"
-    },
-    {
      "name": "Increased Errors for Durable Objects in Western Europe",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-05T19:55:24.427Z",
+ "updated": "2026-11-05T20:20:31.621Z",
  "open": [],
  "parts_order": [
   {
