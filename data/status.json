@@ -37,10 +37,16 @@
   "cloudflare": {
    "indicator": "major",
    "description": "Partial System Outage",
-   "incidents": []
+   "incidents": [
+    {
+     "name": "Increased Errors for Durable Objects in Western Europe",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
+    }
+   ]
   }
  },
- "updated": "2026-11-04T16:00:47.963Z",
+ "updated": "2026-11-05T13:25:22.569Z",
  "open": [],
  "parts_order": [
   {
