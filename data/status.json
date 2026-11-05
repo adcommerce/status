@@ -39,7 +39,7 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Elevated errors for R2 in Asia Pacific",
+     "name": "Network disruption across multiple colocations in India",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/1i6fnludjh1m"
     },
@@ -51,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-05T15:05:26.027Z",
+ "updated": "2026-11-05T15:25:23.746Z",
  "open": [],
  "parts_order": [
   {
