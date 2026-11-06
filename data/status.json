@@ -37,10 +37,16 @@
   "cloudflare": {
    "indicator": "major",
    "description": "Partial System Outage",
-   "incidents": []
+   "incidents": [
+    {
+     "name": "Fedramp Customers have Delayed Purges",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
+    }
+   ]
   }
  },
- "updated": "2026-11-06T16:00:49.719Z",
+ "updated": "2026-11-06T17:50:32.009Z",
  "open": [],
  "parts_order": [
   {
