@@ -39,11 +39,6 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Wrangler Deployments, Pages, and Workers Builds failures",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/wtsd415cavkc"
-    },
-    {
      "name": "Network Performance Issues in Singapore",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/3ehw20ozwlkr"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-06T09:55:25.053Z",
+ "updated": "2026-11-06T10:10:29.591Z",
  "open": [],
  "parts_order": [
   {
