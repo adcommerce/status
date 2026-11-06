@@ -39,7 +39,7 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Wrangler Deployment Failures",
+     "name": "Wrangler Deployments, Pages, and Workers Builds failures",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/wtsd415cavkc"
     },
@@ -51,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-06T09:50:35.173Z",
+ "updated": "2026-11-06T09:55:25.053Z",
  "open": [],
  "parts_order": [
   {
