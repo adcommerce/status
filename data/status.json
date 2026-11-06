@@ -42,16 +42,11 @@
      "name": "Network Performance Issues in Singapore",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/3ehw20ozwlkr"
-    },
-    {
-     "name": "Increased Errors for Durable Objects in Western Europe",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
     }
    ]
   }
  },
- "updated": "2026-11-06T08:55:23.285Z",
+ "updated": "2026-11-06T09:05:24.007Z",
  "open": [],
  "parts_order": [
   {
