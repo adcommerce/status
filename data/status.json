@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Spectrum Availability Issue in Phoenix",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1"
+    },
+    {
      "name": "Fedramp Customers have Delayed Purges",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-06T17:50:32.009Z",
+ "updated": "2026-11-07T01:00:44.468Z",
  "open": [],
  "parts_order": [
   {
