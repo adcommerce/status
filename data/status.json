@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Network Performance Issues in Eastern North America",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/88hc76jnq2gn"
+    },
+    {
      "name": "Changes made to Workers may be delayed or disrupted",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu"
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-09T16:20:31.741Z",
+ "updated": "2026-11-09T16:35:26.626Z",
  "open": [],
  "parts_order": [
   {
