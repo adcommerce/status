@@ -30,7 +30,7 @@
   }
  },
  "today": {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "worst": {}
  },
  "providers": {
@@ -39,11 +39,6 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Spectrum Availability issues",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/olrago3ij4xy"
-    },
-    {
      "name": "Fedramp Customers have Delayed Purges",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-09T15:55:25.619Z",
+ "updated": "2026-11-09T16:00:52.939Z",
  "open": [],
  "parts_order": [
   {
