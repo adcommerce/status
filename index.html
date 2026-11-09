@@ -14,9 +14,16 @@
 <div class="glow" aria-hidden="true"></div>
 <header class="top">
   <a class="brand" href="https://www.adcommerce.mn" aria-label="ADCommerce"><img src="assets/logo-white.png" alt="ADCommerce" width="165" height="28"></a>
-  <div class="lang" role="group" aria-label="Language">
-    <button type="button" data-lang="mn">MN</button>
-    <button type="button" data-lang="en">EN</button>
+  <!-- The language picker of packages/ui (AdLanguagePicker.vue, dark tone), rebuilt without Vue: see assets/app.js. -->
+  <div class="lang" id="lang">
+    <button type="button" class="lang-trigger" id="lang-trigger" aria-haspopup="menu" aria-expanded="false" aria-label="Хэл: Монгол">
+      <img class="lang-flag lang-flag-lg" src="assets/flags/mn.svg" alt="" width="24" height="24">
+      <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="lang-menu" id="lang-menu" role="menu" aria-label="Хэл" tabindex="-1" hidden>
+      <button type="button" role="menuitemradio" aria-checked="true" lang="mn" data-lang="mn"><img class="lang-flag" src="assets/flags/mn.svg" alt="" width="20" height="20"><span>Монгол</span><svg class="lang-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button>
+      <button type="button" role="menuitemradio" aria-checked="false" lang="en" data-lang="en"><img class="lang-flag" src="assets/flags/gb.svg" alt="" width="20" height="20"><span>English</span><svg class="lang-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button>
+    </div>
   </div>
 </header>
 

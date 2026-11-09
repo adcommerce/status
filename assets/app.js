@@ -8,7 +8,7 @@
       checked: (t) => `Сүүлд шалгасан: ${t}`, every5: "5 минут тутам шалгадаг.", ago: (m) => (m < 1 ? "саяхан" : m < 60 ? `${m} минутын өмнө` : `${Math.floor(m / 60)} цагийн өмнө`),
       uptime: (p) => `${p}% ажилласан`, noIncidents: "Сүүлийн 90 хоногт тохиолдол гараагүй.", ongoing: "Үргэлжилж байна", resolved: "Шийдэгдсэн",
       lasted: (d) => `${d} үргэлжилсэн`, provider: "нийлүүлэгч", cf_title: "Cloudflare (манай хостинг):", cf_ok: "хэвийн", now: "Одоо",
-      min: "мин", hour: "цаг",
+      min: "мин", hour: "цаг", language: "Хэл",
     },
     en: {
       eyebrow: "System status", parts: "Components", past: "Past incidents", today: "Today", days90: "90 days ago", days45: "45 days ago",
@@ -17,7 +17,7 @@
       checked: (t) => `Last checked ${t}`, every5: "Checked every 5 minutes.", ago: (m) => (m < 1 ? "just now" : m < 60 ? `${m} min ago` : `${Math.floor(m / 60)} h ago`),
       uptime: (p) => `${p}% uptime`, noIncidents: "No incidents in the last 90 days.", ongoing: "Ongoing", resolved: "Resolved",
       lasted: (d) => `lasted ${d}`, provider: "provider", cf_title: "Cloudflare (our hosting provider):", cf_ok: "operational", now: "Now",
-      min: "min", hour: "h",
+      min: "min", hour: "h", language: "Language",
     },
   };
   const qs = new URLSearchParams(location.search);
@@ -53,7 +53,7 @@
     const t = T[lang];
     document.documentElement.lang = lang;
     document.querySelectorAll("[data-t]").forEach((el) => { const v = t[el.dataset.t]; if (typeof v === "string") el.textContent = v; });
-    document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+    renderLang();
     if (matchMedia("(max-width: 600px)").matches) $(".axis span").textContent = t.days45;
     if (!data) return;
     const { status, history, incidents } = data;
@@ -113,9 +113,55 @@
   const rank = { ok: 0, degraded: 1, down: 2 };
   const worst = (a, b) => (rank[a] >= rank[b] ? a : b);
 
-  document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => {
+  /*
+   * The language picker: packages/ui's AdLanguagePicker (+ AdPopover's keyboard) without Vue. The button shows the current
+   * language's round flag and a chevron; the menu lists each language by its flag and its own name, the current one checked.
+   * Arrow keys / Home / End walk the items, Escape closes and hands focus back to the button, a press outside or Tab away
+   * closes it. Choosing keeps the old persistence: localStorage "adc-status-lang" (?lang= still wins on load).
+   */
+  const NAMES = { mn: "Монгол", en: "English" };
+  const FLAGS = { mn: "assets/flags/mn.svg", en: "assets/flags/gb.svg" };
+  const langRoot = $("#lang"), trigger = $("#lang-trigger"), menu = $("#lang-menu");
+  const items = () => [...menu.querySelectorAll('[role="menuitemradio"]')];
+  function renderLang() {
+    const t = T[lang];
+    trigger.setAttribute("aria-label", `${t.language}: ${NAMES[lang]}`);
+    trigger.querySelector("img").src = FLAGS[lang];
+    menu.setAttribute("aria-label", t.language);
+    items().forEach((b) => b.setAttribute("aria-checked", String(b.dataset.lang === lang)));
+  }
+  const isOpen = () => !menu.hidden;
+  function openMenu() {
+    menu.hidden = false;
+    menu.classList.add("is-entering");
+    requestAnimationFrame(() => menu.classList.remove("is-entering"));
+    trigger.setAttribute("aria-expanded", "true");
+    trigger.setAttribute("aria-controls", "lang-menu");
+    (items()[0] || menu).focus({ preventScroll: true });
+  }
+  function closeMenu(restore = false) {
+    if (!isOpen()) return;
+    menu.hidden = true;
+    trigger.setAttribute("aria-expanded", "false");
+    trigger.removeAttribute("aria-controls");
+    if (restore) trigger.focus({ preventScroll: true });
+  }
+  trigger.addEventListener("click", () => (isOpen() ? closeMenu() : openMenu()));
+  items().forEach((b) => b.addEventListener("click", () => {
+    closeMenu(true);
     lang = b.dataset.lang; localStorage.setItem("adc-status-lang", lang); render();
   }));
+  menu.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { e.stopPropagation(); closeMenu(true); return; }
+    if (!["ArrowDown", "ArrowUp", "Home", "End"].includes(e.key)) return;
+    e.preventDefault();
+    const list = items(), i = list.indexOf(document.activeElement);
+    const next = e.key === "Home" ? 0 : e.key === "End" ? list.length - 1 : (i + (e.key === "ArrowDown" ? 1 : -1) + list.length) % list.length;
+    list[next].focus();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && isOpen()) closeMenu(true); });
+  document.addEventListener("pointerdown", (e) => { if (isOpen() && !langRoot.contains(e.target)) closeMenu(); });
+  langRoot.addEventListener("focusout", (e) => { if (isOpen() && e.relatedTarget && !langRoot.contains(e.relatedTarget)) closeMenu(); });
   render();
   load();
   setInterval(load, 120000);
