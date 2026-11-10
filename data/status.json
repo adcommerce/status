@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Account Analytics Filter Issue",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/m644az5hr9xo"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-10T01:55:23.543Z",
+ "updated": "2026-11-10T08:05:26.830Z",
  "open": [],
  "parts_order": [
   {
