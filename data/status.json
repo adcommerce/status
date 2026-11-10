@@ -35,8 +35,8 @@
  },
  "providers": {
   "cloudflare": {
-   "indicator": "major",
-   "description": "Partial System Outage",
+   "indicator": "minor",
+   "description": "Minor Service Outage",
    "incidents": [
     {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
@@ -51,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-10T16:00:55.052Z",
+ "updated": "2026-11-10T17:20:31.517Z",
  "open": [],
  "parts_order": [
   {
