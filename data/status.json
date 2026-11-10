@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Network Performance Issues in St. Louis, USA",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/1h9c85fz6bm3"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-10T19:10:32.098Z",
+ "updated": "2026-11-10T22:50:33.382Z",
  "open": [],
  "parts_order": [
   {
