@@ -39,11 +39,6 @@
    "description": "Partial System Outage",
    "incidents": [
     {
-     "name": "Changes made to Workers may be delayed or disrupted",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu"
-    },
-    {
      "name": "Fedramp Customers have Delayed Purges",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-09T20:15:31.733Z",
+ "updated": "2026-11-10T01:50:30.250Z",
  "open": [],
  "parts_order": [
   {
