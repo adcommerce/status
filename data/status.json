@@ -39,6 +39,11 @@
    "description": "Partial System Outage",
    "incidents": [
     {
+     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    {
      "name": "Fedramp Customers have Delayed Purges",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-10T01:50:30.250Z",
+ "updated": "2026-11-10T01:55:23.543Z",
  "open": [],
  "parts_order": [
   {
