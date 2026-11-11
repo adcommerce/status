@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Network Performance Degraded",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/804glbb3pq6t"
+    },
+    {
      "name": "Replicate Input Upload Issue",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
@@ -56,7 +61,7 @@
    ]
   }
  },
- "updated": "2026-11-11T10:10:31.646Z",
+ "updated": "2026-11-11T15:55:22.670Z",
  "open": [],
  "parts_order": [
   {
