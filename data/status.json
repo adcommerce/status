@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Cloudflare Worker Builds Issue",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/byzl30zyfc47"
-    },
-    {
      "name": "Replicate Input Upload Issue",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
@@ -61,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-11T06:30:41.305Z",
+ "updated": "2026-11-11T06:45:28.698Z",
  "open": [],
  "parts_order": [
   {
