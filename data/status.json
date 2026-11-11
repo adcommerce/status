@@ -35,9 +35,14 @@
  },
  "providers": {
   "cloudflare": {
-   "indicator": "minor",
-   "description": "Partially Degraded Service",
+   "indicator": "major",
+   "description": "Partial System Outage",
    "incidents": [
+    {
+     "name": "SSL Certificate Provisioning Issue",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/21vwp89eiyjx"
+    },
     {
      "name": "Replicate Input Upload Issue",
      "impact": "minor",
@@ -56,7 +61,7 @@
    ]
   }
  },
- "updated": "2026-11-11T06:45:28.698Z",
+ "updated": "2026-11-11T07:50:33.622Z",
  "open": [],
  "parts_order": [
   {
