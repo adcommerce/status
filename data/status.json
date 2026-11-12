@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "DNSSEC Configuration Change Issues",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/8odt36zmvm36"
-    },
-    {
      "name": "Replicate Model Registry Unavailable",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
@@ -61,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-12T04:55:24.380Z",
+ "updated": "2026-11-12T05:30:37.405Z",
  "open": [],
  "parts_order": [
   {
