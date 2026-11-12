@@ -47,16 +47,11 @@
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
-    },
-    {
-     "name": "Fedramp Customers have Delayed Purges",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
     }
    ]
   }
  },
- "updated": "2026-11-12T16:00:46.998Z",
+ "updated": "2026-11-12T16:40:29.315Z",
  "open": [],
  "parts_order": [
   {
