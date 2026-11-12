@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Replicate Issue",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/1na2mbfshgdh"
+    },
+    {
      "name": "Replicate Model Registry Unavailable",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
@@ -56,7 +61,7 @@
    ]
   }
  },
- "updated": "2026-11-12T05:30:37.405Z",
+ "updated": "2026-11-12T08:30:37.052Z",
  "open": [],
  "parts_order": [
   {
