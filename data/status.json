@@ -44,11 +44,6 @@
      "url": "https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7"
     },
     {
-     "name": "Replicate Model Registry Unavailable",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-12T22:40:28.545Z",
+ "updated": "2026-11-13T01:45:28.271Z",
  "open": [],
  "parts_order": [
   {
