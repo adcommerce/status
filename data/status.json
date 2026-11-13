@@ -39,7 +39,7 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "CloudfElevated error rate for workers startup",
+     "name": "Elevated error rate for workers startup",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/y03on2svrrxt"
     },
@@ -51,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-13T13:55:22.413Z",
+ "updated": "2026-11-13T14:00:46.914Z",
  "open": [],
  "parts_order": [
   {
