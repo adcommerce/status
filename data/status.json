@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Durable Objects increased error rates in North America",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-13T01:45:28.271Z",
+ "updated": "2026-11-13T03:45:28.481Z",
  "open": [],
  "parts_order": [
   {
