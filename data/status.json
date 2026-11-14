@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Increased Errors for R2 in Chicago",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/a643zcsfc71q"
+    },
+    {
      "name": "Cloudflare is seeing an issue with Workers API availability",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-14T01:05:27.413Z",
+ "updated": "2026-11-14T05:35:23.171Z",
  "open": [],
  "parts_order": [
   {
