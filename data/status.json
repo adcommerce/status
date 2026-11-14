@@ -39,7 +39,7 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Increased Errors for R2 in Chicago",
+     "name": "Increased errors for R2 and Tiered Cache",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/a643zcsfc71q"
     },
@@ -56,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-14T05:35:23.171Z",
+ "updated": "2026-11-14T05:45:27.428Z",
  "open": [],
  "parts_order": [
   {
