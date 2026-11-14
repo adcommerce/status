@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Increased errors for R2 and Tiered Cache",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/a643zcsfc71q"
-    },
-    {
      "name": "Cloudflare is seeing an issue with Workers API availability",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-14T05:45:27.428Z",
+ "updated": "2026-11-14T06:50:29.651Z",
  "open": [],
  "parts_order": [
   {
