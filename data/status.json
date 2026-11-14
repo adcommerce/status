@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Issues with 1.1.1.1 public resolver in Canada",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/rikplz89rpml"
-    },
-    {
      "name": "Cloudflare is seeing an issue with Workers API availability",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-14T00:55:28.290Z",
+ "updated": "2026-11-14T01:05:27.413Z",
  "open": [],
  "parts_order": [
   {
