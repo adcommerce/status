@@ -49,11 +49,6 @@
      "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
     },
     {
-     "name": "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/mc91s22odfvf"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -61,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-13T23:55:23.543Z",
+ "updated": "2026-11-14T00:55:28.290Z",
  "open": [],
  "parts_order": [
   {
