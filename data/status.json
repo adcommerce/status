@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Cloudflare is seeing an issue with Workers API availability",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-14T06:50:29.651Z",
+ "updated": "2026-11-14T13:40:27.309Z",
  "open": [],
  "parts_order": [
   {
