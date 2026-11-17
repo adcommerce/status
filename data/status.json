@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Network performance issues in Los Angeles (LAX) datacenter",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/du63c25qjgjs"
+    },
+    {
      "name": "Errors and stalled predictions on some models",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-17T16:40:29.790Z",
+ "updated": "2026-11-17T17:15:30.301Z",
  "open": [],
  "parts_order": [
   {
