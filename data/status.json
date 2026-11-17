@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "R2 elevated errors and timeouts for requests from South America",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/gcn9xop0f7zm"
+    },
+    {
      "name": "Errors and stalled predictions on some models",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-17T18:00:47.026Z",
+ "updated": "2026-11-17T20:10:28.177Z",
  "open": [],
  "parts_order": [
   {
