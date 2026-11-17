@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/tawn3zx7wh0z"
-    },
-    {
      "name": "Turnstile verification failures",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/5831aw44ia7i"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-17T13:55:23.886Z",
+ "updated": "2026-11-17T15:00:55.076Z",
  "open": [],
  "parts_order": [
   {
