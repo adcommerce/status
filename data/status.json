@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Turnstile verification failures",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/5831aw44ia7i"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-17T01:50:28.872Z",
+ "updated": "2026-11-17T10:25:22.931Z",
  "open": [],
  "parts_order": [
   {
