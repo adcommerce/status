@@ -39,7 +39,7 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Elevated R2 and D1 error rates in EU and Asia Pacific region",
+     "name": "Degraded connectivity between Europe and Asia Pacific",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd"
     },
@@ -51,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-18T23:25:22.362Z",
+ "updated": "2026-11-18T23:50:28.349Z",
  "open": [],
  "parts_order": [
   {
