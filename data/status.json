@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Increased latency on Analytics API (GraphQL) queries",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/9zpa7own49hb"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-18T16:00:55.340Z",
+ "updated": "2026-11-18T20:40:41.384Z",
  "open": [],
  "parts_order": [
   {
