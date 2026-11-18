@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Network Performance Issues in Paris",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/k3r9i5tbre4i"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-18T03:40:29.326Z",
+ "updated": "2026-11-18T04:55:31.513Z",
  "open": [],
  "parts_order": [
   {
