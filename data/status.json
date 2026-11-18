@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "R2 Downloads Stalling in Japan",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/2wjvsj2kqt07"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-18T08:50:33.589Z",
+ "updated": "2026-11-18T13:45:29.161Z",
  "open": [],
  "parts_order": [
   {
