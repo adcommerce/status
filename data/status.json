@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Network disruption across multiple colocations in India",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/njt9j3k2zdfw"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-18T04:55:31.513Z",
+ "updated": "2026-11-18T08:05:23.338Z",
  "open": [],
  "parts_order": [
   {
