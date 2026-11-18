@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Errors and stalled predictions on some models",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-18T02:40:28.546Z",
+ "updated": "2026-11-18T03:25:20.501Z",
  "open": [],
  "parts_order": [
   {
