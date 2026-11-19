@@ -25,13 +25,15 @@
    "since": "2026-11-01T11:19:02.928Z"
   },
   "email": {
-   "state": "ok",
-   "since": "2026-11-01T11:19:02.928Z"
+   "state": "degraded",
+   "since": "2026-11-19T11:05:23.069Z"
   }
  },
  "today": {
   "date": "2026-11-19",
-  "worst": {}
+  "worst": {
+   "email": "degraded"
+  }
  },
  "providers": {
   "cloudflare": {
@@ -46,8 +48,10 @@
    ]
   }
  },
- "updated": "2026-11-19T09:00:49.166Z",
- "open": [],
+ "updated": "2026-11-19T11:05:23.069Z",
+ "open": [
+  "2026-11-19-email"
+ ],
  "parts_order": [
   {
    "id": "signin",

@@ -22,6 +22,23 @@
      "en": "Working normally again."
     }
    ]
+  },
+  {
+   "id": "2026-11-19-email",
+   "part": "email",
+   "started": "2026-11-19T11:05:23.069Z",
+   "resolved": null,
+   "worst": "degraded",
+   "cloudflare": true,
+   "test": false,
+   "updates": [
+    {
+     "t": "2026-11-19T11:05:23.069Z",
+     "state": "degraded",
+     "mn": "Хэсэгчилсэн доголдол. Шалгаж байна. Cloudflare-д (манай хостинг) доголдол зарласан.",
+     "en": "Partly degraded. We're looking into it. Cloudflare (our hosting provider) reports an incident."
+    }
+   ]
   }
  ]
 }
