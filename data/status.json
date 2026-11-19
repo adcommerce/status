@@ -41,6 +41,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Durable Objects and D1 – Increased Errors",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/5pe5mb9fefi8"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -48,7 +53,7 @@
    ]
   }
  },
- "updated": "2026-11-19T12:10:28.648Z",
+ "updated": "2026-11-19T13:05:27.200Z",
  "open": [],
  "parts_order": [
   {
