@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Degraded connectivity between Europe and Asia Pacific",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-18T23:50:28.349Z",
+ "updated": "2026-11-19T03:20:29.287Z",
  "open": [],
  "parts_order": [
   {
