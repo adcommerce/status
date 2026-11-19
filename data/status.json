@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Observability ingestion delay and query failures",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/ljrvdciu7syf"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-19T16:00:58.504Z",
+ "updated": "2026-11-19T16:30:39.738Z",
  "open": [],
  "parts_order": [
   {
