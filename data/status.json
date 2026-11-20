@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Network Performance Issues in Miami",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-20T05:05:23.016Z",
+ "updated": "2026-11-20T14:30:40.123Z",
  "open": [],
  "parts_order": [
   {
