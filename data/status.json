@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": " R2 and Durable Objects availability issues",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/pfwuex7qix27"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-19T22:00:44.815Z",
+ "updated": "2026-11-20T02:55:25.818Z",
  "open": [],
  "parts_order": [
   {
