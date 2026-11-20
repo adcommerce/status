@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Cache Purging Delays in Amsterdam",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/xsgbfncq7of7"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-20T18:55:23.745Z",
+ "updated": "2026-11-20T19:45:40.636Z",
  "open": [],
  "parts_order": [
   {
