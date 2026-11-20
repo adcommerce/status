@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Network Performance Issues in Washington, DC datacenter (IAD)",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/oz6to8yacrxe"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-20T19:45:40.636Z",
+ "updated": "2026-11-20T20:35:23.960Z",
  "open": [],
  "parts_order": [
   {
