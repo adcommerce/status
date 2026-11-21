@@ -45,6 +45,23 @@
      "en": "Working normally again."
     }
    ]
+  },
+  {
+   "id": "2026-11-21-agent",
+   "part": "agent",
+   "started": "2026-11-21T11:10:27.991Z",
+   "resolved": null,
+   "worst": "degraded",
+   "cloudflare": true,
+   "test": false,
+   "updates": [
+    {
+     "t": "2026-11-21T11:10:27.991Z",
+     "state": "degraded",
+     "mn": "Хэсэгчилсэн доголдол. Шалгаж байна. Cloudflare-д (манай хостинг) доголдол зарласан.",
+     "en": "Partly degraded. We're looking into it. Cloudflare (our hosting provider) reports an incident."
+    }
+   ]
   }
  ]
 }
