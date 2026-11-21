@@ -30,10 +30,8 @@
   }
  },
  "today": {
-  "date": "2026-11-21",
-  "worst": {
-   "agent": "down"
-  }
+  "date": "2026-11-22",
+  "worst": {}
  },
  "providers": {
   "cloudflare": {
@@ -48,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-21T11:25:23.558Z",
+ "updated": "2026-11-21T16:00:56.030Z",
  "open": [],
  "parts_order": [
   {
