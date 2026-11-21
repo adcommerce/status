@@ -17,8 +17,8 @@
    "since": "2026-11-01T11:19:02.928Z"
   },
   "agent": {
-   "state": "degraded",
-   "since": "2026-11-21T11:10:27.991Z"
+   "state": "down",
+   "since": "2026-11-21T11:15:27.616Z"
   },
   "media": {
    "state": "ok",
@@ -32,7 +32,7 @@
  "today": {
   "date": "2026-11-21",
   "worst": {
-   "agent": "degraded"
+   "agent": "down"
   }
  },
  "providers": {
@@ -48,7 +48,7 @@
    ]
   }
  },
- "updated": "2026-11-21T11:10:27.991Z",
+ "updated": "2026-11-21T11:15:27.616Z",
  "open": [
   "2026-11-21-agent"
  ],

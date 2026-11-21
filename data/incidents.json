@@ -51,7 +51,7 @@
    "part": "agent",
    "started": "2026-11-21T11:10:27.991Z",
    "resolved": null,
-   "worst": "degraded",
+   "worst": "down",
    "cloudflare": true,
    "test": false,
    "updates": [
@@ -60,6 +60,12 @@
      "state": "degraded",
      "mn": "Хэсэгчилсэн доголдол. Шалгаж байна. Cloudflare-д (манай хостинг) доголдол зарласан.",
      "en": "Partly degraded. We're looking into it. Cloudflare (our hosting provider) reports an incident."
+    },
+    {
+     "t": "2026-11-21T11:15:27.616Z",
+     "state": "down",
+     "mn": "Ажиллахгүй байна. Шалгаж байна. Cloudflare-д (манай хостинг) доголдол зарласан.",
+     "en": "Not working. We're looking into it. Cloudflare (our hosting provider) reports an incident."
     }
    ]
   }
