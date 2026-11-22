@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Network Performance Issues in Chicago datacenter (ORD)",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/d2m4kw94ut4f"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-22T00:35:21.782Z",
+ "updated": "2026-11-22T01:15:27.036Z",
  "open": [],
  "parts_order": [
   {
