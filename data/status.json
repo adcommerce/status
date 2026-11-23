@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Cloudflare Workers API – Delayed or Inconsistent Responses",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-23T02:50:28.408Z",
+ "updated": "2026-11-23T13:55:23.451Z",
  "open": [],
  "parts_order": [
   {
