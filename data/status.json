@@ -36,8 +36,13 @@
  "providers": {
   "cloudflare": {
    "indicator": "minor",
-   "description": "Partially Degraded Service",
+   "description": "Minor Service Outage",
    "incidents": [
+    {
+     "name": "Magic Transit Degraded Performance",
+     "impact": "major",
+     "url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh"
+    },
     {
      "name": "Cloudflare Workers API – Delayed or Inconsistent Responses",
      "impact": "minor",
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-24T08:30:38.475Z",
+ "updated": "2026-11-24T11:30:44.586Z",
  "open": [],
  "parts_order": [
   {
