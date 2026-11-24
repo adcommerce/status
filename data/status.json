@@ -39,6 +39,11 @@
    "description": "Minor Service Outage",
    "incidents": [
     {
+     "name": "Issues with Email Routing in France",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi"
+    },
+    {
      "name": "Magic Transit Degraded Performance",
      "impact": "major",
      "url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh"
@@ -56,7 +61,7 @@
    ]
   }
  },
- "updated": "2026-11-24T11:30:44.586Z",
+ "updated": "2026-11-24T13:40:29.132Z",
  "open": [],
  "parts_order": [
   {
