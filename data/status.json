@@ -44,11 +44,6 @@
      "url": "https://www.cloudflarestatus.com/incidents/2quqh864hxdi"
     },
     {
-     "name": "Some customers cannot create monitors",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/vk87u9j2g6if"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-25T16:55:25.224Z",
+ "updated": "2026-11-25T17:50:29.313Z",
  "open": [],
  "parts_order": [
   {
