@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Elevated R2 errors for buckets in APAC region",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/2quqh864hxdi"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-25T17:50:29.313Z",
+ "updated": "2026-11-25T20:05:22.969Z",
  "open": [],
  "parts_order": [
   {
