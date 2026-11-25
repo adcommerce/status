@@ -44,11 +44,6 @@
      "url": "https://www.cloudflarestatus.com/incidents/xufkpdtfdglk"
     },
     {
-     "name": "Magic Transit Degraded Performance",
-     "impact": "major",
-     "url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-25T07:25:23.655Z",
+ "updated": "2026-11-25T08:20:29.682Z",
  "open": [],
  "parts_order": [
   {
