@@ -39,11 +39,6 @@
    "description": "Minor Service Outage",
    "incidents": [
     {
-     "name": "R2 elevated errors and timeouts for requests from South America",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/k8utv1c3ubf2"
-    },
-    {
      "name": "Magic Transit Degraded Performance",
      "impact": "major",
      "url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh"
@@ -56,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-24T22:45:26.881Z",
+ "updated": "2026-11-25T00:15:30.236Z",
  "open": [],
  "parts_order": [
   {
