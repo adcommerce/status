@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Some customers cannot create monitors",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/vk87u9j2g6if"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-25T16:10:33.556Z",
+ "updated": "2026-11-25T16:45:28.137Z",
  "open": [],
  "parts_order": [
   {
