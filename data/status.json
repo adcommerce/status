@@ -35,9 +35,14 @@
  },
  "providers": {
   "cloudflare": {
-   "indicator": "minor",
-   "description": "Minor Service Outage",
+   "indicator": "major",
+   "description": "Partial System Outage",
    "incidents": [
+    {
+     "name": "Firewall Configuration Delay",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/xufkpdtfdglk"
+    },
     {
      "name": "Magic Transit Degraded Performance",
      "impact": "major",
@@ -51,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-25T00:15:30.236Z",
+ "updated": "2026-11-25T07:25:23.655Z",
  "open": [],
  "parts_order": [
   {
