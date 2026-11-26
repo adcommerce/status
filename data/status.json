@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Elevated R2 Latency",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/ef6928vi0mic"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-25T20:10:28.995Z",
+ "updated": "2026-11-26T00:15:30.725Z",
  "open": [],
  "parts_order": [
   {
