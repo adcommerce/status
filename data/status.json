@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "AI Gateway – Elevated errors for Gemini 4 models using Unified Billing",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/filussqshtfq"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-26T10:05:24.466Z",
+ "updated": "2026-11-26T14:20:30.979Z",
  "open": [],
  "parts_order": [
   {
