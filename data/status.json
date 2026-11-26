@@ -39,6 +39,16 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Cloudflare Billing Issues",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/qlwszxx4667e"
+    },
+    {
+     "name": "RealTimeKit Recording Delays",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/mkudgr09g9ax"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +56,7 @@
    ]
   }
  },
- "updated": "2026-11-26T00:15:30.725Z",
+ "updated": "2026-11-26T09:30:38.723Z",
  "open": [],
  "parts_order": [
   {
