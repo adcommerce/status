@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Cloudflare Dashboard and Cloudflare API service issues",
-     "impact": "major",
-     "url": "https://www.cloudflarestatus.com/incidents/xiqj67vl5pqm"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-26T18:10:31.613Z",
+ "updated": "2026-11-26T18:20:28.866Z",
  "open": [],
  "parts_order": [
   {
