@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Cloudflare University website unavailable",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/955xa7dtx0ca"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-26T18:20:28.866Z",
+ "updated": "2026-11-27T14:50:31.671Z",
  "open": [],
  "parts_order": [
   {
