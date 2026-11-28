@@ -39,11 +39,6 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
-     "name": "Increased HTTP 5xx Errors in Bangkok, Thailand region",
-     "impact": "minor",
-     "url": "https://www.cloudflarestatus.com/incidents/gi1o8ptw764t"
-    },
-    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-28T14:35:22.651Z",
+ "updated": "2026-11-28T15:10:30.207Z",
  "open": [],
  "parts_order": [
   {
