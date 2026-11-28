@@ -35,14 +35,9 @@
  },
  "providers": {
   "cloudflare": {
-   "indicator": "major",
-   "description": "Partial System Outage",
+   "indicator": "minor",
+   "description": "Partially Degraded Service",
    "incidents": [
-    {
-     "name": "Email Delivery Delays",
-     "impact": "critical",
-     "url": "https://www.cloudflarestatus.com/incidents/27xnfvjy0n6j"
-    },
     {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
@@ -51,7 +46,7 @@
    ]
   }
  },
- "updated": "2026-11-28T07:25:23.384Z",
+ "updated": "2026-11-28T09:25:23.803Z",
  "open": [],
  "parts_order": [
   {
