@@ -39,6 +39,11 @@
    "description": "Partially Degraded Service",
    "incidents": [
     {
+     "name": "Elevated Errors for Cloudflare Workers Subrequests",
+     "impact": "minor",
+     "url": "https://www.cloudflarestatus.com/incidents/j7ihgms4mvhb"
+    },
+    {
      "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
      "impact": "minor",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
@@ -46,7 +51,7 @@
    ]
   }
  },
- "updated": "2026-11-27T16:00:47.932Z",
+ "updated": "2026-11-28T04:50:30.722Z",
  "open": [],
  "parts_order": [
   {
